@@ -1,0 +1,100 @@
+*{margin: 3;
+padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+header{
+    text-align: center;
+}
+
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    width:100%;
+    background: #ffffff; 
+}
+
+#navbar ul{
+    padding: 0px;
+    margin: 15px;
+    list-style: none;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li a{
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;  
+}
+
+#navbar ul li a:hover{
+    color: darkslategrey;
+    background-color:#D6D6D6;
+}
+
+.sobre img{
+    width: 500px;
+    height: 300px;
+    margin:15px;
+    float: left; 
+
+ }
+
+#sobre2{
+    padding-top: 6%;
+    margin:15px;
+}
+ .sobre p{
+
+    text-decoration:none;
+    font-size: 25px;
+  }
+
+a {
+	text-decoration:none;
+	color: #f33;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #700;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #fa0;
+}
+
+
+
+
+.parallax{
+    background: url("https://i.imgur.com/MIOD12h.jpg")  fixed 100%;
+}
+
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+.social img{
+    width: 60px;
+    height: 60px;
+}
+
+.card-post:hover{
+    margin-top:-10px;
+    color: #fa0;   
+}
+
