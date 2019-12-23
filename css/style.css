@@ -22,7 +22,7 @@ header{
 
 #navbar ul{
     padding: 0px;
-    margin: 15px;
+    margin:0px;
     list-style: none;
 }
 
@@ -31,9 +31,9 @@ header{
 }
 
 #navbar ul li a{
-    padding: 20px 30px;
+    padding: 10px 30px;
     display: inline-block;
-    font-size: 22px;
+    font-size: 21px;
     color: black;
     text-decoration: none;  
 }
@@ -76,25 +76,42 @@ a:hover {
 	color: #fa0;
 }
 
-
-
-
 .parallax{
     background: url("https://i.imgur.com/MIOD12h.jpg")  fixed 100%;
 }
 
 .parallax-inner{
-    padding-top: 20%;
-    padding-bottom: 15%;
-}
+    padding-top: 30%;
+    padding-bottom: 25%;
+ }
 
 .social img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
-.card-post:hover{
-    margin-top:-10px;
-    color: #fa0;   
+
+.row{
+    margin: 35px;
 }
+
+.card-post{
+    display: inline-block;
+    width: 150px;
+    margin-right: 300px;
+    margin-left: 3px;
+
+}
+
+
+
+
+.responsive-img:hover{
+    display: inline-block;
+    min-height: 200px;
+    height: 0px;
+
+}
+
+
 
