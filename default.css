@@ -22,6 +22,14 @@ h1, h2, h3
 	font-family: 'Englebert', sans-serif;
 	color: #74C5F2;
 }
+h5
+{
+	text-align: justify;
+	margin: 3;
+	padding: 3;
+	color: #8B2287;
+
+}
 
 h2
 {
@@ -315,10 +323,7 @@ hr
 
 /*Skills*/
 .containerr {
-    width: 95%;
-    /* Full width */
-    background-color: #ddd;
-    /* Grey background */
+	width: 95%;	
 }
 
 .skills {
@@ -332,58 +337,61 @@ hr
     /* White text color */
 }
 
-.javascript {
-    width: 80%;
-    background-color: #4CAF50;
-}
 
-.node {
-    width: 70%;
-    background-color: rgb(46, 77, 47);
-}
-
-.csharp {
-    width: 60%;
-    background-color: rgb(76, 155, 175);
-}
-
-.dotnet {
-    width: 60%;
-    background-color: rgb(40, 102, 117);
-}
-
-.mysql {
-    width: 90%;
-    background-color: rgb(86, 76, 175);
-}
-
-.html {
-    width: 50%;
-    background-color: rgb(167, 83, 146);
-}
-
-.css {
-    width: 30%;
-    background-color: rgb(129, 70, 103);
-}
-
-.mongo {
-    width: 65%;
-    background-color: #633532;
-}
 
 /*projetos*/
 
 #elementt img {
-
-
-
 width: 200px;
 height: 200px;
-
-
 }
 
 
+.loren{
+    float:left; /*<---*/
+    width: 50%;
+}
+.ipsulum{
+    float:left; /*<---*/
+    width: 50%;
+}
+/*.ipsulum h3{
+	text-shadow: black;
+	background-color: #444444;
+	text-align: justify;
+}
+*/
+.conteudo {
+    display:flex; /*<--*/
+}
 
 
+.projeto{
+    border-radius: 40px;
+    padding: 1%;
+}
+
+.projeto-container{
+    display: flex;
+}
+
+
+.projeto .descricao{    
+    width: 40%;
+	height: 70%;
+	position: relative;
+}
+
+.projeto .box-galeria{
+   
+    width: 40%;
+    height: 50%;
+    position: relative;
+}
+
+.projeto .box-galeria3{
+   float: right;
+    width: 40%;
+    height: 50%;
+    position: relative;
+}
